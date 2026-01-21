@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(248, 249, 250);
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+
+header #cap {
+    background-color: rgb(233, 234, 249);
+    width: 83px;
+    height: 23px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(99, 102, 241);
+    font-weight: 700;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+header #note {
+    opacity: 0.6;
+    font-size: 22px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.price {
+    border: 1px solid white;
+    background-color: white;
+    width: 416px;
+    height: 460px;
+    box-shadow: 50px;
+    border-radius: 10px;
+}
+
+.price h4 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.price #pricetag {
+    display: inline;
+    color: rgb(99, 102, 241);
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 100px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+i {
+    color: white;
+    background-color: green;
+    border-radius: 50px;
+}
+
+#no {
+    background-color: white;
+    color: black;
+}
+
+.opt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+button {
+    border: 1px solid rgb(43, 128, 253);
+    color: rgb(43, 128, 253);
+    width: 350px;
+    height: 28px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.odd {
+    border: 1px solid white;
+    background-color: white;
+    width: 416px;
+    height: 460px;
+    box-shadow: 50px;
+    border-radius: 10px;
+}
+
+.odd h4 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.odd #contact {
+    color: rgb(99, 102, 241);
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.price:hover{
+    transition: 3s;
+    transform: translateY(-5px) ;
+    border: 2px solid rgb(121, 67, 243);
+}
+.odd:hover{
+    transition: 3s;
+    transform: translateY(-5px);
+    border: 2px solid rgb(121, 67, 243);
+}
+.price:hover button{
+    transform: scale(1.05);
+    background-color: rgb(43, 128, 253);
+    color: white;
+}
+.odd:hover button{
+    transform: scale(1.05) ;
+    background-color: rgb(43, 128, 253);
+    color: white;
+
+}
